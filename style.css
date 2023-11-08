@@ -18,7 +18,6 @@ body{
     align-items:center;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .container{
@@ -38,16 +37,19 @@ body{
     width: 100%;
     border-radius: 20px;
     /* border: 2px solid gray; */
-    background-color: violet;
+    background-color: cornflowerblue;
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
     align-items: center;
     margin-bottom: 3vh;
     font-size: 2vh;
-    color: rgb(102, 93, 93);
+    color: #fff;
+  
 }
+
 .bottom{
+    color: #fff;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
@@ -66,7 +68,8 @@ body{
     height: 8vh;
     width: 8vh;
     cursor: pointer;
-    background-color: rgba(243, 112, 243, 0.479);
+    background-color:rgba(139, 172, 233, 0.63);
+    color: #000;
     border-radius: 50%;
     font-size: 2vh;
     font-weight: 700;
@@ -116,8 +119,7 @@ body{
         width: 100%;
         height: 100%;
         overflow: hidden;
-        gap: 5px;
-        margin-top: -10px;
+        gap: 13px;
        
     }
     .bottom div{
@@ -127,7 +129,7 @@ body{
         height: 4vh;
         width: 4vh;
         cursor: pointer;
-        background-color: rgba(243, 112, 243, 0.479);
+        background-color: rgba(139, 172, 233, 0.63);
         border-radius: 50%;
         font-size: 2vh;
         font-weight: 700;
@@ -138,22 +140,90 @@ body{
         justify-content:baseline;
         flex-direction: column;
         width:85vw;
-        height: 92vh;
+        height: 90vh;
         border-radius: 15px;
         padding: 2vh;
         background-color:#fff;
+        margin: 2.5vh;
+    
     }
     .top{
         height: 5vh;
         width: 100%;
         border-radius: 20px;
         /* border: 2px solid gray; */
-        background-color: violet;
+        background-color: cornflowerblue;
         display: flex;
         justify-content:space-around;
         padding: 0 5px;
         align-items: center;
         font-size: 1.5vh;
-        color: rgb(102, 93, 93);
+        color: #fff;
+    }
+}
+
+
+/* ------------------------------------------Stater----------------------------------- */
+
+.stater {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10vh;
+}
+
+.stater h1 {
+        font-size: 9vh;
+        font-weight: 700;
+        color: wheat;
+    }
+
+    .stater h2 {
+        font-size: 5vh;
+        font-weight: 700;
+        color: rgb(134, 201, 134);
+    }
+
+    .stater button {
+        margin-top: 20px;
+        padding: 12px 40px;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(58, 111, 207);
+        color: #fff;
+    }
+
+@media (max-width:920px) {
+    .stater h1 {
+        font-size: 4vh;
+        font-weight: 700;
+        color: wheat;
+    }
+
+    .stater h2 {
+        font-size: 2.5vh;
+        font-weight: 700;
+        color: rgb(134, 201, 134);
+    }
+
+    .stater button {
+        margin-top: 20px;
+        padding: 10px 30px;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(58, 111, 207);
+        color: #fff;
     }
 }
