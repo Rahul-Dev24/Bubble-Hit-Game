@@ -38,6 +38,9 @@ function scoreUpdate() {
     document.querySelector(".bottom").addEventListener("click", function (data) {
         let r1 = Number(data.target.textContent)
         if (r_count === r1) {
+              if (navigator) {
+                navigator.vibrate(0);
+            }
             r_count = null;
             makeBubble();
             var sound1 = new Audio();
