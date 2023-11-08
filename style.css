@@ -140,12 +140,10 @@ body{
         justify-content:baseline;
         flex-direction: column;
         width:85vw;
-        height: 90vh;
+        height: 86vh;
         border-radius: 15px;
         padding: 2vh;
         background-color:#fff;
-        margin-bottom:5vh;
-    
     }
     .top{
         height: 5vh;
